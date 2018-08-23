@@ -1,0 +1,3 @@
+ORPort 9001
+Nickname Tor-Control-JS-Test
+ExitPolicy reject *:*
