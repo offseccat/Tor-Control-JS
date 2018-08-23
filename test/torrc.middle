@@ -1,3 +1,5 @@
 ORPort 9001
-Nickname Tor-Control-JS-Test
+Nickname TorControlJSTest
+ControlPort 0.0.0.0:9051
+HashedControlPassword 16:F5C6051E03ED37C560DC8E968A9A8196DA322A99E13D13CDF47D674D5F
 ExitPolicy reject *:*

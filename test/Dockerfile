@@ -11,9 +11,10 @@ RUN apk update && apk add \
 # default port to used for incoming Tor connections
 # can be changed by changing 'ORPort' in torrc
 EXPOSE 9001
+EXPOSE 9051
 
 # copy in our torrc files
-COPY torrc.middle /etc/tor/torrc.middle
+COPY torrc.middle /etc/tor/torrc
 
 # make sure files are owned by tor user
 RUN chown -R tor /etc/tor

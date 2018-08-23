@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Frichetten/Tor-Control-JS/issues"
   },
-  "homepage": "https://github.com/Frichetten/Tor-Control-JS#readme"
+  "homepage": "https://github.com/Frichetten/Tor-Control-JS#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1"
+  }
 }
